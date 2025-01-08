@@ -1,0 +1,32 @@
+<!-- <svg width="100" height="100" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10">
+    <path d="M10 40h44v14H10z" fill="#f9c9a2"/>
+    <path d="M8 54h48v6H8z" fill="#f69e7b"/>
+    <path d="M16 20h32v20H16z" fill="#eaa79e"/>
+    <circle cx="32" cy="14" r="4" fill="#ffcc80"/>
+  </g>
+</svg> -->
+
+
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="64" 
+  height="64" 
+  viewBox="0 0 64 64"
+  fill="none"
+>
+  <!-- Cake Base -->
+  <rect x="12" y="28" width="40" height="24" fill="#F9C9A2" stroke="#D97A66" stroke-width="2" rx="4" />
+  
+  <!-- Cake Top Layer -->
+  <rect x="16" y="16" width="32" height="16" fill="#FDE68A" stroke="#D97A66" stroke-width="2" rx="4" />
+  
+  <!-- Candle -->
+  <rect x="30" y="4" width="4" height="12" fill="#FFD700" />
+  <circle cx="32" cy="4" r="3" fill="#FF6347" />
+  
+  <!-- Decorations -->
+  <circle cx="24" cy="36" r="3" fill="#FF5733" />
+  <circle cx="40" cy="36" r="3" fill="#8E44AD" />
+  <circle cx="32" cy="46" r="3" fill="#3498DB" />
+</svg>
