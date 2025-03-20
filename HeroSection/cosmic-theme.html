@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Theme Hero Section</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Space Mono', monospace;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #fff;
+        }
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.6em;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                background-image: url('https://picsum.photos/800/1200');
+            }
+        }
+        @media (min-width: 769px) {
+            .hero {
+                background-image: url('https://picsum.photos/1920/1080');
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Cosmic Birthday Voyage</h1>
+            <p>Celebrating across the universe!</p>
+        </div>
+    </div>
+</body>
+</html>
+

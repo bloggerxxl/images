@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Theme Hero Section</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .hero-content {
+            background-color: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.8em;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                background-image: url('https://picsum.photos/800/1200');
+            }
+        }
+        @media (min-width: 769px) {
+            .hero {
+                background-image: url('https://picsum.photos/1920/1080');
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Urban Birthday</h1>
+            <p>Celebrate in the heart of the city!</p>
+        </div>
+    </div>
+</body>
+</html>
+

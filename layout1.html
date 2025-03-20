@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Possibilities Await You</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            width: 300px;
+            height: auto;
+            min-height: 200px;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: conic-gradient(from 0deg, #1abc9c, #3498db, #9b59b6, #1abc9c);
+        }
+
+        .card::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: repeating-conic-gradient(from 0deg, transparent 0deg 15deg, rgba(255, 255, 255, 0.1) 15deg 30deg);
+            animation: spin 10s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .content {
+            text-align: left;
+            max-height: 100%;
+            overflow-y: auto;
+            padding-right: 10px;
+            z-index: 1;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            font-family: Lucida Handwriting
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            line-height: 1.2;
+            font-family: 'Monotype Corsiva', cursive;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .content::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .content::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 4px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            border: 2px solid brown;
+            border-radius: 12px;
+            width: calc(100%);
+
+        }
+
+        .pink {
+            font-weight: bold;
+            color: #FF4D6D;
+            font-size: 22px;
+            font-family: 'Monotype Corsiva', cursive;
+        }
+
+        .purple {
+            font-weight: bold;
+            color: #800080;
+            font-size: 22px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .pinkpurple {
+            font-size: 16px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #FF4D6D, #800080);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="content">
+                <h2>🌟 <span class="purple">Another</span> Year, Another Adventure <span class="pink">Awaits!</span>
+                </h2>
+                <p>Cheers to Your Unstoppable Spirit 🎈</p>
+                <p>
+                    <span class="purple">Today</span> isn’t just about cake and candles (though they’re pretty great).
+                    It’s about <span class="pink">celebrating</span>
+                    you—your journey, your <span class="pink"> dreams,</span> and all the lives you brighten. So, here’s
+                    to new memories, <span class="pinkpurple">bold</span>
+                    steps, and a year filled with <span class="pink">moments</span> that <span
+                        class="purple">make</span> you say, “Wow, this is
+                    my life!” 🚀🎉
+                </p>
+                <p>
+
+                    <span class="purple">Now</span> go own this day like the superstar you are! 🌟
+                </p>
+            </div>
+        </div>
+        <p class="pink" style="font-family:'Dancing Script', cursive; width:300px; padding:20px; display:none;">Ram siya
+            ram siya ram jay jay ram and 'Dancing Script', cursive; fonts is used here of google fonts
+        </p>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

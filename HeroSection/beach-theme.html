@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Theme Hero Section</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .hero-content {
+            background-color: rgba(0,128,255,0.4);
+            padding: 30px;
+            border-radius: 15px;
+        }
+        h1 {
+            font-size: 4em;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+        p {
+            font-size: 1.6em;
+            font-weight: 300;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                background-image: url('https://picsum.photos/800/1200');
+            }
+        }
+        @media (min-width: 769px) {
+            .hero {
+                background-image: url('https://picsum.photos/1920/1080');
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Beach Birthday Bliss</h1>
+            <p>Wishing you waves of happiness on your special day!</p>
+        </div>
+    </div>
+</body>
+</html>
+

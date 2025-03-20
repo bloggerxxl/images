@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Theme Hero Section</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Courier New', monospace;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            color: #FFD700;
+            text-shadow: 3px 3px 0px #FF4500;
+        }
+        .hero-content {
+            background-color: rgba(0,0,0,0.7);
+            padding: 30px;
+            border: 5px solid #FFD700;
+            border-radius: 20px;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 4em;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.8em;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                background-image: url('https://picsum.photos/800/1200');
+            }
+        }
+        @media (min-width: 769px) {
+            .hero {
+                background-image: url('https://picsum.photos/1920/1080');
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Groovy Birthday!</h1>
+            <p>Let's party like it's 1979!</p>
+        </div>
+    </div>
+</body>
+</html>
+

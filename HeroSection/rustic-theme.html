@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rustic Theme Hero Section</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Amatic SC', cursive;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            color: #FFF8DC;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+        .hero-content {
+            background-color: rgba(101, 67, 33, 0.6);
+            padding: 30px;
+            border-radius: 5px;
+            border: 3px solid #FFF8DC;
+        }
+        h1 {
+            font-size: 5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 2.5em;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                background-image: url('https://picsum.photos/800/1200');
+            }
+        }
+        @media (min-width: 769px) {
+            .hero {
+                background-image: url('https://picsum.photos/1920/1080');
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Rustic Birthday Charm</h1>
+            <p>Celebrating with warmth and simplicity</p>
+        </div>
+    </div>
+</body>
+</html>
+
