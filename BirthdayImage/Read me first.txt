@@ -1,0 +1,9 @@
+yahan image hoga one se lekar six .jpg 
+
+ye gihub par push arna hoga bas birthday wala section jo hai usko fix karne ke liye taaki image url static rahe lekin image change kiya jaa sake
+
+birth day wish ka url ye hai
+*.vercel.app?name=WisherName&from=Raajesh
+
+GitHub repo ka url ye hai
+rajs2001.github.io/Birthday-wishes
